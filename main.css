@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+body {
+    min-height: 100vh;
+    width: 10;
+    background: linear-gradient(#250902,#38040e,#640d14,#800e13,#ad2831);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+
+    
+}
+.cinema-img{
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 65vh;
+    width: 90% ;
+    top: 270px;
+    right: 80px;
+    z-index: -1;
+}
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.logo .ri-tv-line{
+    color: #9d0208;
+}
+
+.logo span {
+   margin-left: 10px;
+   
+   
+}
+
+
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: bold;
+    
+
+}
+
+.navbar a:hover {
+    color: #ad2831;
+    transition: .3s;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ad2831;
+    transition: .3s;
+    cursor: pointer;
+    
+
+}
+
+.navbar a:hover::before {
+    width: 100%;
+    
+
+}
+
+.navbar a span {
+    margin-left: 2px;
+}
+
+
+.text{
+   margin-left: 100px;
+   margin-top: 300px;
+    width: 50%;
+    
+}
+
+
+h1{
+    color:#fff;
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+
+p{
+    position: relative;
+    top: -10px;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn{ 
+    margin-top: 30px;
+    display: block;
+    color: #fff; 
+    background: #9d0208;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 10;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+    text-decoration: none;
+    width: fit-content;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0,3);
+}
+
+.btn:hover{
+    background:transparent;
+    border: 1px solid white;
+    margin-left: 8px;
+}
+
+
+  
