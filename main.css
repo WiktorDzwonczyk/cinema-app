@@ -2,20 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
 
 
 
 
 body {
-    background: linear-gradient(#250902,#38040e,#640d14,#800e13,#ad2831);
+    background: linear-gradient(#11151C, #212D40);
     background-size: cover;
     background-position: center;
     background-blend-mode: darken;
     font-family: 'Poppins', sans-serif;
+    height: 68.6vh;
 
     
 }
+
 .cinema-img{
     position: absolute;
     display: flex;
@@ -54,7 +58,7 @@ body {
 }
 
 .logo .ri-tv-line{
-    color: #9d0208;
+    color: #086788;
 }
 
 .logo span {
@@ -76,8 +80,9 @@ body {
 
 }
 
-.navbar a:hover {
-    color: #ad2831; 
+.navbar a:hover,
+.navbar a.active {
+    color: #086788; 
 }
 
 .navbar a::before {
@@ -87,7 +92,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #ad2831;
+    background: #086788;
     transition: .3s;
     cursor: pointer;
     
@@ -101,8 +106,9 @@ body {
 }
 
 .navbar a span {
-    margin-left: 2px;
+    margin-left: 5px;
 }
+
 
 
 .text{
@@ -125,6 +131,13 @@ h1{
     font-family: 'Teko', sans-serif;
 }
 
+h1 span{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    padding: 10px;
+
+}
+
 p{
     position: relative;
     top: -10px;
@@ -140,7 +153,7 @@ p{
     margin-top: 30px;
     display: block;
     color: #fff; 
-    background: #9d0208;
+    background: #086788;
     border: 1px solid none;
     padding: 12px 30px;
     line-height: 1.4;
